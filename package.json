@@ -1,0 +1,160 @@
+{
+	"name": "sap-bas-extras",
+	"version": "0.0.29",
+	"publisher": "sap-partner-eng",
+	"license": "MIT",
+	"displayName": "BAS Extras",
+	"description": "Adds commands to install extras in SAP Business Application Studio(BAS).",
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"icon": "sap-partner-eng.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andrewlunde/sap-partner-eng-bas-installer-extension"
+	},
+	"categories": [
+		"Other"
+	],
+        "keywords": [
+                "sap", "sappe", "sapbas", "bas", "basextras", "basextra", "partner", "partnereng", "partnerengineering"
+        ],
+	"activationEvents": [
+		"onCommand:bas-installer-extension.pythonInstaller",
+		"onCommand:bas-installer-extension.golang_1_12_1_Installer",
+		"onCommand:bas-installer-extension.golang_1_13_15_Installer",
+		"onCommand:bas-installer-extension.golang_1_16_3_Installer",
+		"onCommand:bas-installer-extension.notrootInstaller",
+		"onCommand:bas-installer-extension.cfdefenvInstaller",
+		"onCommand:bas-installer-extension.cfsmsiInstaller",
+		"onCommand:bas-installer-extension.yohagenInstaller",
+		"onCommand:bas-installer-extension.yopegenInstaller",
+		"onCommand:bas-installer-extension.hanacliInstaller",
+		"onCommand:bas-installer-extension.mitmproxyInstaller",
+		"onCommand:bas-installer-extension.btpcliInstaller",
+		"onCommand:bas-installer-extension.thetacliInstaller",
+		"onCommand:bas-installer-extension.solc_0_8_4_Installer",
+		"onCommand:bas-installer-extension.solc_0_7_6_Installer",
+		"onCommand:bas-installer-extension.solc_0_6.12_Installer",
+		"onCommand:bas-installer-extension.solc_0_5_17_Installer",
+		"onCommand:bas-installer-extension.solc_0_5_0_Installer",
+		"onCommand:bas-installer-extension.solc_0_4_26_Installer",
+		"onCommand:bas-installer-extension.solc_0_4_16_Installer",
+		"onCommand:bas-installer-extension.solc_0_3_6_Installer",
+		"onCommand:bas-installer-extension.solc_0_2_2_Installer",
+		"onCommand:bas-installer-extension.solc_0_1_7_Installer"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "bas-installer-extension.pythonInstaller",
+				"title": "BAS: Install Python 3.9.2"
+			},
+			{
+				"command": "bas-installer-extension.golang_1_12_1_Installer",
+				"title": "BAS: Install GoLang 1.12.1"
+			},
+			{
+				"command": "bas-installer-extension.golang_1_13_15_Installer",
+				"title": "BAS: Install GoLang 1.13.15"
+			},
+			{
+				"command": "bas-installer-extension.golang_1_16_3_Installer",
+				"title": "BAS: Install GoLang 1.16.3"
+			},
+			{
+				"command": "bas-installer-extension.notrootInstaller",
+				"title": "BAS: Install NOTROOT"
+			},
+			{
+				"command": "bas-installer-extension.cfdefenvInstaller",
+				"title": "BAS: Install CF DefaultEnv Plugin"
+			},
+			{
+				"command": "bas-installer-extension.cfsmsiInstaller",
+				"title": "BAS: Install CF SMSI Plugin"
+			},
+			{
+				"command": "bas-installer-extension.yohagenInstaller",
+				"title": "BAS: Install SAP HANA Academy yeoman generators"
+			},
+			{
+				"command": "bas-installer-extension.yopegenInstaller",
+				"title": "BAS: Install SAP Partner Engineering yeoman generator"
+			},
+			{
+				"command": "bas-installer-extension.hanacliInstaller",
+				"title": "BAS: Install SAP HANA-CLI"
+			},
+			{
+				"command": "bas-installer-extension.mitmproxyInstaller",
+				"title": "BAS: Install mitmproxy [Deps: Python 3.9.2]"
+			},
+			{
+				"command": "bas-installer-extension.btpcliInstaller",
+				"title": "BAS: Install SAP BTP CLI"
+			},
+			{
+				"command": "bas-installer-extension.thetacliInstaller",
+				"title": "BAS: Install Theta CLI"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_8_4_Installer",
+				"title": "BAS: Install SOLC 0.8.4"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_7_6_Installer",
+				"title": "BAS: Install SOLC 0.7.6"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_6.12_Installer",
+				"title": "BAS: Install SOLC 0.6.12"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_5_17_Installer",
+				"title": "BAS: Install SOLC 0.5.17"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_5_0_Installer",
+				"title": "BAS: Install SOLC 0.5.0"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_4_26_Installer",
+				"title": "BAS: Install SOLC 0.4.26"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_4_16_Installer",
+				"title": "BAS: Install SOLC 0.4.16"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_3_6_Installer",
+				"title": "BAS: Install SOLC 0.3.6"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_2_2_Installer",
+				"title": "BAS: Install SOLC 0.2.2"
+			},
+			{
+				"command": "bas-installer-extension.solc_0_1_7_Installer",
+				"title": "BAS: Install SOLC 0.1.7"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.52.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.15.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.1.2",
+		"vscode-test": "^1.4.1"
+	}
+}
