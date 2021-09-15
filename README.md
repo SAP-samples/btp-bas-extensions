@@ -1,10 +1,10 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/cloud-sfsf-benefits-ext)](https://api.reuse.software/info/github.com/SAP-samples/cloud-sfsf-benefits-ext)
 
-# BTP BAS Extensions
-Business Technology Platform(BTP) Business Application Studio(BAS) Extensions is a collection of community provided extensions compatible with the BAS online integrated development environment.
+# SAP BTP Business Application Studio Extensions
+SAP Business Technology Platform (BTP) Business Application Studio (BAS) Extensions is a collection of community provided extensions compatible with the BAS online integrated development environment.
 
 ## Description
-SAP Partner Engineering Business Application Studio(BAS) Installer Extension way to install Python,NOTROOT, other tools for customers using Eclipse Theia based IDE's. 
+SAP Partner Engineering Business Application Studio (BAS) Installer Extension way to install Python,NOTROOT, other tools for customers using Eclipse Theia based IDE's. 
 
 ## Requirements
 Business Application Studio
