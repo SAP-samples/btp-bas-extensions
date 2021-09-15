@@ -85,7 +85,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_python.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_python.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -186,7 +186,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_notroot.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_notroot.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -283,8 +283,8 @@ function activate(context) {
 		// }
 		// await ;
 
-		//var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_notroot.sh";
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_cfdefenv.sh";
+		//var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_notroot.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_cfdefenv.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -381,7 +381,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_cfsmsi.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_cfsmsi.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -615,7 +615,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_golang.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_golang.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -714,7 +714,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_golang.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_golang.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -814,7 +814,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_golang.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_golang.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -915,7 +915,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_mitmproxy.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_mitmproxy.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1013,7 +1013,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_btp_cli.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_btp_cli.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1111,7 +1111,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_theta_cli.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_theta_cli.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1209,7 +1209,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1311,7 +1311,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1413,7 +1413,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1515,7 +1515,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1617,7 +1617,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1719,7 +1719,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1821,7 +1821,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -1923,7 +1923,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -2025,7 +2025,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
@@ -2127,7 +2127,7 @@ function activate(context) {
 		// }
 		// await ;
 
-		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/hana-python-securestore/master/tools/bas_install_solc.sh";
+		var shellcmd = "curl -s -L -o " + destfile + " https://raw.githubusercontent.com/SAP-samples/btp-bas-extensions/main/tools/bas_install_solc.sh";
 		out.appendLine('shellcmd: ' + shellcmd);
 		console.log()
 
